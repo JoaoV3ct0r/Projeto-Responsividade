@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    margin: 32px 0px 0px 42px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.875px;
+}
+.a-nav{
+    text-decoration: none;
+    color: #17233D;
+    margin-right: 32px;
+    cursor: pointer;
+}
+.button-nav{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px; /* Espaçamento (Linhas) */
+    letter-spacing: 1px; /* Espaçamento (Letras) */
+    text-align: center;
+    color: #FFFFFF;
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 10px; 
+/* Tamanho do Botão */
+    width: 124px;
+    height: 51px;
+    left: 420px;
+}
+main{
+    margin-top: 163px;
+}
+img{
+    position: relative;
+    width: 595.18px;
+    height: 500px;
+    margin-left: 121px;
+}
+section{
+    display: inline-block;
+    margin-left: 84.62px;
+}
+.h1-section{
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.5961538553237915px;
+    text-align: left;
+    width: 582px;
+    height: 164px;
+    color: #161A49;
+}
+.p-section{
+    width: 493px;
+    height: 99px;
+    margin-top: 47px;
+    color: #4B505A;
+}
+.a-section{
+    text-decoration: none;
+    color: #6FBF44;
+    cursor: pointer;
+    margin-top: 55px;
+}
+
+@media screen and (max-width: 700px) {
+    *{
+
+        box-sizing: border-box;
+    }
+    nav {
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+    main{
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+    .a-nav{
+        display: none;
+    }
+    .button-nav{
+        display: none;
+    }
+    img{
+        width: auto;
+        position: absolute;
+        margin: 490px 39px 0 0;
+        padding: 10%;
+    }
+    section{
+        margin: auto;
+        text-align: center;
+    }
+    .h1-section{
+        height: auto;
+        margin: 124px 0 0 0;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0.5961538553237915px;
+        text-align: center;
+    }
+    .p-section{
+        width: auto;
+        margin: 26px 50px 50px 50px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        text-align: center;
+    }
+    .a-section{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 1px;
+        margin-top: 26px;
+    }
+
+}
